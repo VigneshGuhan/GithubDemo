@@ -52,11 +52,19 @@ $ git status
 
 ### Commit:
 ```
+To commit but not stage:
 $ git commit -m "<message>" 
-
 ```
 
-$ git commit -am ""
+```
+To  commit and stage
+$ git commit -am "<message>"
+```
+
+### View Staged File :
+```
+$ git ls-files
+```
 
 ### Push the change:
 
@@ -65,6 +73,7 @@ $ git push
 ```
 
 ### Pull:
+Fetch + merge = Pull
 ```
 $ git pull
 ```
@@ -80,6 +89,8 @@ $ git init
 Find difference between current version and last committed version
 ```
 $ git diff
+$ git diff --staged
+$ git diff firstbranch..secondbranch
 ```
 To quit from vim click q
 
@@ -87,6 +98,8 @@ To quit from vim click q
 Get list of all commits
 ```
 $ git log
+$ git log --oneline
+$ git log --oneline --reverse
 ```
 ### Last Commit Details:
 ```
@@ -96,6 +109,11 @@ $ git show HEAD
 ### Help:
 ```
 $ git –help
+```
+
+### Show Commit:
+```
+$ git show <commit id>
 ```
 
 
