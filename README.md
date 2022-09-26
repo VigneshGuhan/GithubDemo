@@ -117,8 +117,7 @@ $ git show <commit id>
 ```
 
 
-### Git Ignore Refrence:
-### [Github Ignore File](https://github.com/github/gitignore)
+### Git Ignore Refrence:  [Github Ignore File](https://github.com/github/gitignore)
 
-
+## Other Websites:
 ### [Git Explorer](https://gitexplorer.com/)
